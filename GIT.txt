@@ -55,7 +55,11 @@ install
 - git config --global user.name "Mark GREFF"
 - git config --global user.email "g.gremark@gmail.com"
 - git clone git@github.com:Greffm/learning.git
+- steps:
 
+	git add GIT.txt
+	git commit -m "Add GIT.txt"
+	git push origin main
 
 
 
