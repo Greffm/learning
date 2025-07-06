@@ -64,6 +64,12 @@ install
 
 
 
+Git Gui & gitk
+
+- bash is great for doing some basic work
+- but working in projects can be too enormous 
+- git gui&
+-  a kis fájl ikonra kell kattintani
 
 
 
