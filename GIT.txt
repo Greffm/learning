@@ -1,0 +1,94 @@
+GIT
+
+
+VCS (Version Control System) CONCEPT
+
+GOALS:
+
+- Backup and restore
+- Synchronization
+- undo
+- Track changes and Ownership
+- Sandboxing 
+- Branching
+
+2 types of VCS's:
+
+ - Lock-Modify-Lock
+ - Copy-modify-Merge (GIT)
+ - Combined 
+
+Lock-modify-unlock strategy:
+
+ - Editing exclusively 
+ - Bob updates his local copy
+
+Copy-modify-merge strategy:
+
+ - Can be edited anyone anytime
+ - The server checks for diffs
+ - server offers for updates id there are diffs
+- If the user pushes the own version to the server while the server keeps the orig lines, then its conflict resolution ~ kb.
+
+
+VCS's can be devided based on centralized or distributed: in distributed u have your own repo. 
+
+why git?
+
+- 2005 was created
+- commandline interface-built system
+- open source
+- git can perferm 50x times faster than others
+
+
+install
+
+- next-next install
+- ssh-keygen -t rsa -C "g.gremark@gmail.com"
+- 1. bekérés: where to find the key (location):
+	- (/c/Users/Monostor/.ssh/id_rsa): key_sajat_git
+- 2. bekérés: pw 
+	- [empty]
+- vmiért a sima Monostorban jelenik meg, nincs .ssh dir
+- Csak a public key-t illik megosztani, a private az titkos
+- we upload our codes into GitHub
+- git config --global user.name "Mark GREFF"
+- git config --global user.email "g.gremark@gmail.com"
+- git clone git@github.com:Greffm/learning.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
